@@ -1,0 +1,11 @@
+{
+  "org": "block",
+  "repo": "sessh",
+  "versions": [
+    {
+      "commit": "8aa46de7162ff9372ade6b225016525a1b49a42d",
+      "tag": "main",
+      "parsed_at": "2026-10-01T08:45:57.417454+00:00"
+    }
+  ]
+}
