@@ -8,7 +8,7 @@
     {
       "@id": "https://repolex.ai/r/block/sessh/commit/8aa46de7162ff9372ade6b225016525a1b49a42d",
       "git:hexsha": "8aa46de7162ff9372ade6b225016525a1b49a42d",
-      "repolex:parseStatus": "metadata_complete",
+      "repolex:parseStatus": "ast_complete",
       "git:tagName": "main"
     },
     {
