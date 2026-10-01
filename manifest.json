@@ -218,6 +218,53 @@
       ],
       "ast": [
         "aggregate/ast/8aa46de7162ff9372ade6b225016525a1b49a42d/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/8aa46de7162ff9372ade6b225016525a1b49a42d.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "@termless/core",
+          "ecosystem": "NPM",
+          "version": "0.6.0",
+          "githubOrg": "beorn",
+          "githubRepo": "termless",
+          "githubCommit": "9d5cf92cd2951ca22f8ce65d5cf0800ea0d18449",
+          "githubTag": "v0.6.0",
+          "githubUrl": "git+https://github.com/beorn/termless.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "@xterm/headless",
+          "ecosystem": "NPM",
+          "version": "5.5.0",
+          "githubOrg": "xtermjs",
+          "githubRepo": "xterm.js",
+          "githubCommit": "9ba6c00a195c95fcf8292a2b9084d91450e5daae",
+          "githubTag": "5.5.0",
+          "githubUrl": "git+https://github.com/xtermjs/xterm.js.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "node-pty",
+          "ecosystem": "NPM",
+          "version": "1.1.0",
+          "githubOrg": "microsoft",
+          "githubRepo": "node-pty",
+          "githubCommit": "1def5774632305246fe21f0f69e23a664d6c5910",
+          "githubTag": "v1.1.0",
+          "githubUrl": "git://github.com/microsoft/node-pty.git",
+          "source": "build_file:package.json"
+        },
+        {
+          "packageName": "vitest",
+          "ecosystem": "NPM",
+          "version": "4.1.7",
+          "githubOrg": "vitest-dev",
+          "githubRepo": "vitest",
+          "githubCommit": "a09d47236e19fd3151351080c667036ca6164dc4",
+          "githubTag": "v4.1.7",
+          "githubUrl": "git+https://github.com/vitest-dev/vitest.git",
+          "source": "build_file:package.json"
+        }
       ]
     }
   ],

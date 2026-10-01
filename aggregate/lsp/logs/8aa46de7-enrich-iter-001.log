@@ -1,0 +1,28 @@
+[2026-10-01T08:34:47Z] === ENRICH ITERATION 1 START | repo=block/sessh sha=8aa46de7 ===
+[2026-10-01T08:34:47Z] [iter=1] PHASE START: enrich repo=block/sessh sha=8aa46de7 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/8aa46de7-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/8aa46de7162ff9372ade6b225016525a1b49a42d.nq.gz
+[2026-10-01T08:34:50Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=79 MB
+[2026-10-01T08:34:55Z] [iter=1] AST store loaded triples=610536 load_secs=5 mem_mb=785 MB
+[2026-10-01T08:34:55Z] [iter=1] Step 2: Finding LSP targets mem_mb=785 MB
+[2026-10-01T08:34:55Z] [iter=1] LSP targets found call_sites=5663 imports=160 extends=0 implements=0 secs=1
+[2026-10-01T08:34:55Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=785 MB
+[2026-10-01T08:34:59Z] [iter=1] Position index built positions=40497 nodes_with_types=54095 secs=3 mem_mb=785 MB
+[2026-10-01T08:34:59Z] [iter=1] Step 3: Starting LSP resolution mem_mb=785 MB already_completed_types=[] already_completed_files=0
+[2026-10-01T08:34:59Z] [iter=1] Resolving target type target_type=call_site count=5663
+[2026-10-01T08:36:29Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=1.7 files_done=1 resolved=350 errors=346 current=tests/ssh_harness_proxy_cases.py
+[2026-10-01T08:37:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=2.3 files_done=2 resolved=573 errors=486 current=scripts/render-overhead
+[2026-10-01T08:37:53Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.1 files_done=4 resolved=907 errors=659 current=tests/socket_harness_reconnect_cases.py
+[2026-10-01T08:38:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=3.6 files_done=6 resolved=1072 errors=780 current=tests/ssh_reconnect_tmux_harness.py
+[2026-10-01T08:38:58Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.2 files_done=7 resolved=1203 errors=916 current=tests/podman_ssh_harness.py
+[2026-10-01T08:39:32Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=4.8 files_done=8 resolved=1419 errors=1045 current=tests/ssh_harness_common.py
+[2026-10-01T08:40:21Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=5.6 files_done=10 resolved=1940 errors=1213 current=tests/socket_harness_common.py
+[2026-10-01T08:41:01Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.2 files_done=11 resolved=2187 errors=1361 current=tests/ssh_harness_transport_cases.py
+[2026-10-01T08:41:43Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=6.9 files_done=12 resolved=2377 errors=1527 current=tests/bootstrapper_harness.py
+[2026-10-01T08:42:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=7.6 files_done=15 resolved=2541 errors=1685 current=tests/socket_harness_runner.py
+[2026-10-01T08:43:24Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=8.6 files_done=17 resolved=2783 errors=1920 current=scripts/check_blocking.py
+[2026-10-01T08:44:06Z] [iter=1] HEARTBEAT target_type=call_site elapsed_min=9.3 files_done=29 resolved=2915 errors=2048 current=scripts/download-ghostty-deps
+[2026-10-01T08:44:07Z] [iter=1] Target type resolved target_type=call_site resolved=2915 errors=2051 secs=548 mem_mb=785 MB
+[2026-10-01T08:44:07Z] [iter=1] Resolving target type target_type=import_statement count=160
+[2026-10-01T08:44:09Z] [iter=1] Target type resolved target_type=import_statement resolved=154 errors=0 secs=2 mem_mb=785 MB
+[2026-10-01T08:44:13Z] [iter=1] Step 5: Writing final enrichment file triples=40535
+[2026-10-01T08:44:14Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/8aa46de7162ff9372ade6b225016525a1b49a42d.nq.gz size_kb=694
+[2026-10-01T08:44:14Z] [iter=1] PHASE END: enrich elapsed_s=567 elapsed_min=9.4 total_triples=40535
